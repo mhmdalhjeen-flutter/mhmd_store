@@ -1,0 +1,416 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --education-color: #0075ff;
+  --education-alt-color: #0d69d5;
+  --game-color: #ff4500;
+  --game-alt-color: #f49e0b;
+  --game-alt1-color: #fed8b1;
+  --sport-color: #f44336;
+  --sport-alt-color: #ff6347;
+  --brown-color: brown;
+  --lightblue-color: lightblue;
+  --lightgreen-color: lightgreen;
+  --lime-color: lime;
+  --green-color: #22c55e;
+  --aiTools-color: #4b0082;
+  --aiTools-alt-color: #e6e6fa;
+  --arabic-color: #8b4513;
+  --arabic-alt-color: #fff8dc;
+  --book-color: #dff0d8;
+  --book-alt-color: #008000;
+  --security-color: #ffe6e6;
+  --security-alt-color: #ff0000;
+  --text-color: #333333;
+  --purple-color: purple;
+  --grey-color: #888;
+}
+/* Display box  */
+.d-f {
+  display: flex;
+}
+.ai-c {
+  align-items: center;
+}
+.jc-c {
+  justify-content: center;
+}
+.d-i-f {
+  display: inline-flex;
+}
+.d-b {
+  display: block;
+}
+.d-i-b {
+  display: inline-block;
+}
+.d-g {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.fw-w {
+  flex-wrap: wrap;
+}
+.df-ai-c-jc-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.df-ai-c-jc-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b-eee {
+  border: 1px solid #eee;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+  .t-c-mobile {
+    text-align: center;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .w-full-mobile {
+    width: 100%;
+  }
+}
+/* Display box  */
+
+/* Margin, Padding */
+.m-0 {
+  margin: 0;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-30 {
+  margin: 30px;
+}
+.m-40 {
+  margin: 40px;
+}
+.m-50 {
+  margin: 50px;
+}
+.m-60 {
+  margin: 60px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.p-0 {
+  padding: 0;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-30 {
+  padding: 30px;
+}
+.p-40 {
+  padding: 40px;
+}
+.p-50 {
+  padding: 50px;
+}
+.p-60 {
+  padding: 60px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+
+/* Margin, Padding */
+
+/* color */
+.bg-white {
+  background-color: white;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.c-black {
+  color: black;
+}
+.c-white {
+  color: white;
+}
+.edu {
+  box-shadow: 1px 2px 3px var(--education-color);
+}
+.btn-edu {
+  background-color: var(--education-color);
+}
+.arb {
+  box-shadow: 1px 2px 3px var(--arabic-color);
+}
+.btn-arb {
+  background-color: var(--arabic-color);
+}
+.reg {
+  box-shadow: 1px 2px 3px var(--book-alt-color);
+}
+.btn-reg {
+  background-color: var(--book-alt-color);
+}
+.book {
+  box-shadow: 1px 2px 3px var(--green-color);
+}
+.btn-book {
+  background-color: var(--green-color);
+}
+.sport {
+  box-shadow: 1px 2px 3px var(--sport-color);
+}
+.btn-sport {
+  background-color: var(--sport-alt-color);
+}
+.download {
+  box-shadow: 1px 2px 3px var(--game-alt-color);
+}
+.btn-download {
+  background-color: var(--game-color);
+}
+.game {
+  box-shadow: 1px 2px 3px var(--game-color);
+}
+.btn-game {
+  background-color: var(--game-alt-color);
+}
+.blue {
+  box-shadow: 1px 2px 3px var(--blue-color);
+}
+.btn-blue {
+  background-color: var(--blue-alt-color);
+}
+.invst {
+  box-shadow: 1px 2px 3px var(--text-color);
+}
+.btn-invst {
+  background-color: var(--text-color);
+}
+.safety {
+  box-shadow: 1px 2px 3px var(--security-alt-color);
+}
+.btn-safety {
+  background-color: var(--security-alt-color);
+}
+.ai {
+  box-shadow: 1px 2px 3px var(--purple-color);
+}
+.btn-ai {
+  background-color: var(--aiTools-color);
+}
+.mov {
+  box-shadow: 1px 2px 3px var(--grey-color);
+}
+.btn-mov {
+  background-color: var(--grey-color);
+}
+/* color */
+
+/* Position */
+.p-r {
+  position: relative;
+}
+.p-abs {
+  position: absolute;
+}
+/* Position */
+
+/* Font */
+.ta-c {
+  text-align: center;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fw-b {
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .t-c-mobile {
+    text-align: center;
+  }
+}
+/* Font */
+
+/* Border */
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-30 {
+  border-radius: 30px;
+}
+.rad-50 {
+  border-radius: 50px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+.b-n {
+  border: none;
+}
+.b-ccc {
+  border: 1px solid #ccc;
+}
+/* Border */
+.w-full {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-100 {
+  width: 100px;
+}
+.h-100 {
+  width: 100px;
+}
+.h-fll {
+  height: 100%;
+}
